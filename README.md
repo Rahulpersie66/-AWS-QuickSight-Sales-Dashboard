@@ -2,7 +2,7 @@
 
 This project demonstrates how to build an interactive business intelligence dashboard on AWS using the QuickSight platform. The dataset is based on the Superstore sales data and visualizes insights across cities, categories, regions, and time.
 
-![Dashboard Preview](assets/dashboard.jpg)
+![Dashboard Preview](https://github.com/Rahulpersie66/-AWS-QuickSight-Sales-Dashboard/blob/main/assests/dashboard.jpg)
 
 ## 🔧 Stack
 
