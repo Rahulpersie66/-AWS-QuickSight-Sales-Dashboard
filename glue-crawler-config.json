@@ -1,0 +1,17 @@
+{
+  "Name": "superstore-orders-crawler",
+  "Role": "AWSGlueServiceRoleDefault",
+  "DatabaseName": "dbtest",
+  "Targets": {
+    "S3Targets": [
+      {
+        "Path": "s3://superstoreanalyst1/orders/"
+      }
+    ]
+  },
+  "TablePrefix": "orders_",
+  "SchemaChangePolicy": {
+    "UpdateBehavior": "UPDATE_IN_DATABASE",
+    "DeleteBehavior": "DEPRECATE_IN_DATABASE"
+  }
+}
